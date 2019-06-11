@@ -3,12 +3,9 @@ package com.example.leetcode.demo.partition;
 import jdk.management.resource.internal.inst.FileOutputStreamRMHooks;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
- * Copyright (c) 2019 maoyan.com
- * All rights reserved.
  *
  * @author liying
  * @created 2019-06-10
