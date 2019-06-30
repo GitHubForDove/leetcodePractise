@@ -1,7 +1,7 @@
 package com.example.leetcode.demo.DynamicProgramming;
 
 /**
- * Copyright (c) 2019 maoyan.com
+ * Copyright (c) 2019
  * All rights reserved.
  *
  * @author liying84

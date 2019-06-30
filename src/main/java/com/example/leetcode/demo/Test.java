@@ -2,12 +2,13 @@ package com.example.leetcode.demo;
 
 
 import org.springframework.util.StringUtils;
+import org.thymeleaf.expression.Lists;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Copyright (c) 2019 maoyan.com
+ * Copyright (c) 2019
  * All rights reserved.
  *
  * @author liying84
@@ -50,6 +51,18 @@ public class Test {
         String reason = null;
         System.out.println(reason);*/
 
+        Map<String,String> params = new HashMap<String,String>();
+
+        List<String> keys = new ArrayList<>();
+        for (Map.Entry<String,String> entry : params.entrySet()) {
+            keys.add(entry.getKey());
+        }
+
+        for (String key : keys) {
+
+        }
+
+        //List<String> keys = Lists.newArrayList(params.keySet());
 
 
         Calendar calendar = Calendar.getInstance();

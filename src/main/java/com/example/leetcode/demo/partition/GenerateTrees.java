@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Copyright (c) 2019 maoyan.com
+ * Copyright (c) 2019
  * All rights reserved.
  *
  * @author liying84
