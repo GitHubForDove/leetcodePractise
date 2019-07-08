@@ -34,7 +34,7 @@ public class NodeCountCompleteBinaryTree {
 
     public static int bs(TreeNode node, int level, int h) {
 
-        // 递归的终止的边界条件
+        // 递归的终止的边界条件 到最后一层的时候
         if (level == h) {
             return 1;
         }
