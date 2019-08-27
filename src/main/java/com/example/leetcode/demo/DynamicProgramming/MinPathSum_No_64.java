@@ -1,7 +1,5 @@
 package com.example.leetcode.demo.DynamicProgramming;
 
-import java.util.Arrays;
-
 /**
  * Copyright (c) 2019
  * All rights reserved.

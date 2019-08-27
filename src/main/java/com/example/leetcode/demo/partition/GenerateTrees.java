@@ -1,6 +1,5 @@
 package com.example.leetcode.demo.partition;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -55,6 +54,9 @@ public class GenerateTrees {
         return generateSubtrees(1,n);  // 生成子树
     }
 
+    /**
+     * 生成树
+     */
     public static List<TreeNode> generateSubtrees(int s, int e) {
         List<TreeNode> res = new LinkedList<TreeNode>();
         // 递归终止条件
