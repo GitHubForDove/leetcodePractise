@@ -47,6 +47,10 @@ public class RandomPool<k> {
 
     }
 
+    /**
+     * 把最后一个值 挪到删除原来所在的地方 覆盖掉 然后将最后一个数 删除
+     * @param key
+     */
     public void delete(k key) {
 
         if (this.keyIndexMap.containsKey(key)) {
