@@ -6,7 +6,7 @@ package com.example.leetcode.demo.Offer;
  *
  * @author liying84
  * @created 2019-08-28
- * @descript xx
+ * @descript 二叉树的下一个节点
  */
 public class GetNext {
 
@@ -19,6 +19,7 @@ public class GetNext {
         int val;
         TreeLinkNode left = null;
         TreeLinkNode right = null;
+        // 指向父节点
         TreeLinkNode next = null;
 
         TreeLinkNode(int val) {
