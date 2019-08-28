@@ -48,7 +48,6 @@ public class Match {
         }
 
 
-
         //模式第2个不是*，且字符串第1个跟模式第1个匹配，则都后移1位，否则直接返回false
         if ((strIndex != str.length && pattern[patternIndex] == str[strIndex]) || (pattern[patternIndex] == '.' && strIndex != str.length)) {
             return matchCore(str, strIndex + 1, pattern, patternIndex + 1);
