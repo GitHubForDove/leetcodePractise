@@ -51,6 +51,9 @@ public class Test {
         String reason = null;
         System.out.println(reason);*/
 
+        System.out.println(func2(2));
+
+
         Map<String,String> params = new HashMap<String,String>();
 
         List<String> keys = new ArrayList<>();
@@ -76,5 +79,58 @@ public class Test {
 
         System.out.println(endDate);
         System.out.println(sdf.format(endDate));
+    }
+
+    public static String reverStr(String str) {
+        String[] arr = str.split("\\ ");
+
+        for (int i=0; i<arr.length; i++) {
+            arr[i] = new StringBuilder(arr[i]).reverse().toString();
+        }
+        String res = "";
+
+        for (int i=0; i<arr.length; i++) {
+            res += arr[i];
+            if (i != arr.length-1) {
+                res += " ";
+            }
+        }
+        return res;
+    }
+
+    public static String func(String str) {
+        char[] chars = str.toCharArray();
+        HashMap map = new HashMap();
+        String res = "";
+        for (int i=0; i<chars.length; i++) {
+            if (!map.containsKey(chars[i])) {
+                map.put(chars[i], 0);
+                res += chars[i];
+            }
+        }
+
+        return res;
+    }
+
+    public static HashSet<String> fun(String str) {
+        String[] arr = str.split("\\|");
+        HashSet<String> set = new HashSet<>();
+        for (int i=0; i<arr.length; i++) {
+            set.add(arr[i]);
+        }
+        set.size();
+        return set;
+    }
+
+    public static boolean func2(int n) {
+
+        for(int i=1;i<= n; i++) {
+            for (int j=i; j<=n ;j++) {
+                if (n == (i*i + j*j)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
