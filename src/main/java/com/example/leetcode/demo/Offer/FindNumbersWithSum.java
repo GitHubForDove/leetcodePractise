@@ -40,7 +40,6 @@ public class FindNumbersWithSum {
                 end--;
             }
         }
-
         return res;
     }
 

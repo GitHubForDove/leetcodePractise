@@ -47,8 +47,9 @@ public class KthNode {
 
             node  = kthNode(pRoot.right, k);
 
-            if(node != null)
+            if(node != null) {
                 return node;
+            }
         }
         return null;
     }

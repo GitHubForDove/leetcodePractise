@@ -27,8 +27,7 @@ public class FindContinuousSequence {
             int temp = i;
             ArrayList<Integer> tempList = new ArrayList<>();
             tempList.add(i);
-            for (int j=i+1;j<sum;j++) {
-
+            for (int j = i+1; j<sum; j++) {
                 temp += j;
                 if (temp > sum) {
                     break;
@@ -37,11 +36,8 @@ public class FindContinuousSequence {
                 if (temp == sum) {
                     res.add(tempList);
                 }
-
             }
-
         }
-
         return res;
     }
 

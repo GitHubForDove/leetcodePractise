@@ -2,6 +2,7 @@ package com.example.leetcode.demo.Mafengwo;
 
 import java.util.Scanner;
 
+
 public class Question2 {
 
 
@@ -31,7 +32,6 @@ public class Question2 {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             String str = sc.nextLine();
-            //str = sc.nextLine();
             String[] strArr = str.split(",");
             int[] arr = new int[strArr.length];
             for (int i=0; i<arr.length; i++) {

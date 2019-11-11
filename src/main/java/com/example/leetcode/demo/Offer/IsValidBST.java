@@ -41,6 +41,7 @@ public class IsValidBST {
 
             if(root.val <= pre){
                 valid = false;
+                return;
             }
             pre = root.val;
 

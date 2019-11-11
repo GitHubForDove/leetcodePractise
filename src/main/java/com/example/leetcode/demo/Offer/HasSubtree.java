@@ -23,16 +23,16 @@ public class HasSubtree {
             //如果找到了对应Tree2的根节点的点
             if(root1.val == root2.val){
                 //以这个根节点为为起点判断是否包含Tree2
-                result = doesTree1HaveTree2(root1,root2);
+                result = doesTree1HaveTree2(root1, root2);
             }
             //如果找不到，那么就再去root的左儿子当作起点，去判断时候包含Tree2
             if (!result) {
-                result = hasSubtree(root1.left,root2);
+                result = hasSubtree(root1.left, root2);
             }
 
             //如果还找不到，那么就再去root的右儿子当作起点，去判断时候包含Tree2
             if (!result) {
-                result = hasSubtree(root1.right,root2);
+                result = hasSubtree(root1.right, root2);
             }
         }
         //返回结果
