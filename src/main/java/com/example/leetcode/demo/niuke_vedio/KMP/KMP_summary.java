@@ -16,5 +16,9 @@ public class KMP_summary {
 
 
 
+    public static void main(String[] args) {
+
+    }
+
 
 }

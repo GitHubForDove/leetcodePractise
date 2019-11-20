@@ -18,7 +18,7 @@ public class FindPath {
     }
 
     public static ArrayList<ArrayList<Integer>> allList = new ArrayList<>();
-    public static ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+    public static ArrayList<ArrayList<Integer>> findPath(TreeNode root, int target) {
 
         if (root == null || target == 0) {
             return allList;
