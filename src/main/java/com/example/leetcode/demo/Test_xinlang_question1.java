@@ -20,11 +20,11 @@ public class Test_xinlang_question1 {
             String[] tempList = list[i].split("\\.");
 
             for (int j = 0; j < minTempList.length; j++) {
-                int minVersionInt = Integer.valueOf(minTempList[j]);
+                int minVersionInt = Integer.parseInt(minTempList[j]);
                 if (tempList.length <= j) {
                     break;
                 }
-                int tempVersionInt = Integer.valueOf(tempList[j]);
+                int tempVersionInt = Integer.parseInt(tempList[j]);
 
                 if (minVersionInt < tempVersionInt) {
                     break;
