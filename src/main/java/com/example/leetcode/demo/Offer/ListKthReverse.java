@@ -53,7 +53,7 @@ public class ListKthReverse {
                     pre = pre.next;
                 }
                 pre.next = head;
-                if (head== null) return p.next;
+                if (head == null) return p.next;
                 flag = 1;
 
             } else {
